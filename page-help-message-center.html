@@ -26,8 +26,9 @@
                                 <ul class="navbar-nav ms-auto me-lg-5">
                                     <li class="nav-item"><a class="nav-link" href="landing-app-mobile.html">Home</a></li>
                                     <li class="nav-item dropdown dropdown-xl no-caret">
-                                        <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                        <a class="nav-link dropdown-toggle" id="navbarDropdownDemos" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Education
+                                            <i class="fas fa-chevron-right dropdown-arrow"></i>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-end animated--fade-in-up me-lg-n25 me-xl-n15" aria-labelledby="navbarDropdownDemos">
                                             <div class="row g-0">
@@ -84,12 +85,14 @@
                                     <li class="nav-item dropdown dropdown-xl no-caret">
                                         <a class="nav-link" id="navbarDropdownPages" href="page-careers-overview.html" role="button"  aria-haspopup="true" aria-expanded="false">
                                             Jobs
+                                            <i class="fas fa-chevron-right dropdown-arrow"></i>
                                         </a>
                                  
                                     </li>
                                     <li class="nav-item dropdown no-caret">
                                         <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                             Inbox
+                                            <i class="fas fa-chevron-right dropdown-arrow"></i>
                                         </a>
                                         <div class="dropdown-menu dropdown-menu-end animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
                                             <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-ui-kit-pro/quickstart" target="_blank">
@@ -132,7 +135,7 @@
                             <div class="container px-5 text-center">
                                 <div class="row gx-5 justify-content-center">
                                     <div class="col-lg-8">
-                                        <h1 class="page-header-ui-title mb-3">Message Center</h1>
+                                        <h1 class="page-header-ui-title mb-3">Inbox Center</h1>
                                         <p class="page-header-ui-text">Open tickets and receive responses</p>
                                     </div>
                                 </div>
@@ -146,38 +149,38 @@
                     <section class="bg-light pt-10">
                         <div class="container px-5">
                             <div class="input-group input-group-lg mb-5">
-                                <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Case ID</button>
-                                <div class="dropdown-menu animated--fade-in-up">
+                                <button class="btn btn-primary" type="button" aria-haspopup="true" >Job ID</button>
+                                <!-- <div class="dropdown-menu animated--fade-in-up">
                                     <a class="dropdown-item" href="#!">Transaction ID</a>
                                     <a class="dropdown-item" href="#!">Invoice ID</a>
                                     <a class="dropdown-item" href="#!">Name</a>
                                     <a class="dropdown-item" href="#!">Email</a>
-                                </div>
-                                <input class="form-control" type="text" aria-label="Text input with dropdown button" placeholder="Search for a case..." />
+                                </div> -->
+                                <input class="form-control" type="text" aria-label="Text input with dropdown button" placeholder="Search for a job..." />
                             </div>
                             <div class="row gx-5">
                                 <div class="col-lg-4 col-xl-3 mb-5">
                                     <div class="card">
                                         <div class="list-group list-group-flush small">
-                                            <a class="list-group-item list-group-item-action p-3" href="#!">
+                                            <!-- <a class="list-group-item list-group-item-action p-3" href="#!">
                                                 <i class="fas fa-plus fa-fw me-2 text-gray-400"></i>
                                                 Make New Ticket
-                                            </a>
+                                            </a> -->
                                             <a class="list-group-item list-group-item-action p-3" href="#!">
                                                 <i class="fas fa-file-alt fa-fw me-2 text-gray-400"></i>
-                                                View Open Tickets
+                                                View Open Jobs
                                             </a>
                                             <a class="list-group-item list-group-item-action p-3" href="#!">
                                                 <i class="fas fa-archive fa-fw me-2 text-gray-400"></i>
-                                                View Closed Tickets
+                                                View Closed Jobs
                                             </a>
                                             <a class="list-group-item list-group-item-action p-3" href="#!">
                                                 <i class="fas fa-star fa-fw me-2 text-gray-400"></i>
-                                                View Starred Tickets
+                                                View Starred Jobs
                                             </a>
                                             <a class="list-group-item list-group-item-action p-3" href="#!">
                                                 <i class="far fa-handshake fa-fw me-2 text-gray-400"></i>
-                                                Managed Services
+                                                Managed Jobs
                                             </a>
                                         </div>
                                     </div>
